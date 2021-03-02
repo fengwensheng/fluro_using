@@ -9,11 +9,11 @@ class FooPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             RaisedButton(
-              onPressed: () => SyRouter.router.navigateTo(_, '/bar'),
+              onPressed: () => SyRouter.router.navigateTo(_, SyRouter.barPage),
               child: Text('Bar页面'),
             ),
             RaisedButton(
-              onPressed: () => SyRouter.router.navigateTo(_, '/empty'),
+              onPressed: () => SyRouter.router.navigateTo(_, 'xxx'),
               child: Text('Empty页面'),
             ),
           ],
